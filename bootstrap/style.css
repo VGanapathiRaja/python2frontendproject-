@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Caacupe+One&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+
+::root {
+    --primarycolor: #053e76;
+    --secondarycolor: #1170ce;
+    --tersarycolor: #b3d8fb;
+}
+
+
+.mynav {
+    background-color: #053e76 !important;
+}
+
+.herosec {
+    background-image: url("assets/hero\ images.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
